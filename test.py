@@ -6,7 +6,7 @@ import random
 client = S3Client()
 
 
-#this will help read the files at a given prefix 1/06232020
+# this will help read the files at a given prefix 1/06232020
 total = 0
 objects = []
 for file in client.get_all_s3_objects(Bucket='gap-warehouse', Prefix="1/06232020"):
@@ -21,8 +21,6 @@ for key in objects:
     print(pickle.loads(data))
 
 
-
-#un comment if you want to save metadata to a s3 bucket
 
 
 # def ret():
@@ -39,8 +37,8 @@ for key in objects:
 #
 #
 #
-
 #
-# for x in range(4000):
+#
+# for x in range(400):
 #     data = ret()
 #     client.save_detection(data)

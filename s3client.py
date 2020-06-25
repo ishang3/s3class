@@ -33,8 +33,7 @@ class S3Client():
         date = datetime.datetime.fromtimestamp(data['timestamp']).strftime('%m%d%Y')
 
         # each detection will have a unique id based off the timestamp and trackid
-        uniqueid = str(data['timestamp']) + str(random.randrange(100000)) + '-' + \
-                   data['label'] + '.txt'
+        uniqueid = str(data['timestamp'])
 
         key = os.path.join(camid, date, uniqueid)
         self.client.put_object(Body=pickle.dumps(data), Bucket="gap-warehouse",
