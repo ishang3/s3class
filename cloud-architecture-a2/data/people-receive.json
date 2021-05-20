@@ -1,0 +1,86 @@
+{
+   "videobucket":"sensable-indexnine2",
+   "videokey":"1/3/39cc4f51716fe62c6e3df6f3fae71a109.mp4",
+   "activity":[
+      {
+         "activity_name":"Move from Region 0 to Region 1",
+         "regex":"o:R0R1"
+      },
+      {
+         "activity_name":"Move From Region 0 To Region 2",
+         "regex":"O:R0R2"
+      }
+   ],
+   "reports":[
+      {
+         "type":"B:activity-report",
+         "command":"SELECT trackid,match,COUNT(*) from metadata group by trackid,match order by trackid;"
+      },
+      {
+         "type":"B:time-per-id",
+         "command":"SELECT trackid,SUM(totaltime::decimal),COUNT(*) from metadata group by trackid;"
+      },
+      {
+         "type":"B:total-time",
+         "command":"SELECT Trackid,SUM(totaltime::decimal) from metadata Group By Trackid;"
+      },
+      {
+         "type":"B:Number of picks per tracked id",
+         "command":"SELECT Trackid,COUNT(trackid) from metadata group by trackid;"
+      }
+   ],
+   "annotations":[
+      {
+         "type":"rect",
+         "label":"R0",
+         "image_width":1159,
+         "image_height":651.9375,
+         "analysis":[
+            {
+               "type":"people",
+               "title":"People",
+               "calculation":null
+            }
+         ],
+         "xmin":443.7172601744187,
+         "ymin":63.445966190846306,
+         "xmax":875.5884418378273,
+         "ymax":260.2644799458111
+      },
+      {
+         "type":"rect",
+         "label":"R1",
+         "image_width":1159,
+         "image_height":651.9375,
+         "analysis":[
+            {
+               "type":"people",
+               "title":"People",
+               "calculation":null
+            }
+         ],
+         "xmin":173.04981831395352,
+         "ymin":124.43915275089802,
+         "xmax":412.1959651447788,
+         "ymax":264.85292491933546
+      },
+      {
+         "type":"rect",
+         "label":"R2",
+         "image_width":1159,
+         "image_height":651.9375,
+         "analysis":[
+            {
+               "type":"people",
+               "title":"People",
+               "calculation":null
+            }
+         ],
+         "xmin":419.6777252906977,
+         "ymin":265.14153455985786,
+         "xmax":872.6958074983711,
+         "ymax":482.47334900679243
+      }
+   ],
+   "cameraId":3
+}

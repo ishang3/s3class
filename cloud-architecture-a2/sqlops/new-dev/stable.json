@@ -1,0 +1,45 @@
+{
+   "cameraId":"2",
+   "videourl":{
+      "bucket":"completedvideo",
+      "key":"2output.mp4"
+   },
+   "chartList":[
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  1
+               ],
+               "label":"Pallet Pickup"
+            }
+         ],
+         "title":"Pallet Pickups",
+         "labels":[
+            1
+         ],
+         "options":null,
+         "colors":null,
+         "x-axis":"Object ID",
+         "y-axis":"Number of Pickups"
+      }
+   ],
+   "activity_table":{
+      "match":{
+         "1":"Pallet Pick up"
+      },
+      "totaltime":{
+         "1":"18.36287"
+      },
+      "objectid":{
+         "1":1
+      },
+      "starting":{
+         "1":"2020-10-22 03:45:20.4339"
+      },
+      "ending":{
+         "1":"2020-10-22 03:35:38.2879"
+      }
+   }
+}

@@ -1,0 +1,28 @@
+{
+	"cameraId": "camera01",
+	"videourl": {
+		"bucket": "completedvideo",
+		"key": "output.mp4"
+	},
+	"chartList": [{
+		"chartType": "bar",
+		"dataSet": [{
+			"data": [78, 81, 80, 45, 34, 12, 40, 78, 81, 80, 45, 34, 12, 40, 12, 40],
+			"label": "Series A"
+		}],
+		"title": "Stoppages (>3mins)",
+		"labels": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"],
+		"options": null,
+		"colors": null
+	}, {
+		"chartType": "line",
+		"dataSet": [{
+			"data": [65, 59, 84, 84, 51, 55, 40],
+			"label": "Series A"
+		}],
+		"title": "Real Time Utilisation %",
+		"labels": ["January", "February", "March", "April", "May", "June", "July"],
+		"options": null,
+		"colors": null
+	}]
+}

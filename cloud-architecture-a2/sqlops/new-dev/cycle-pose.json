@@ -1,0 +1,196 @@
+{
+   "cameraId":"7",
+   "videourl":{
+      "bucket":"completedvideo",
+      "key":"7output.mp4"
+   },
+   "chartList":[
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  35,
+                  55,
+                  40,
+                  75,
+                  50,
+                  58
+               ],
+               "label":"Cycle Time"
+            }
+         ],
+         "title":"End to End Cycle Time",
+         "labels":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Cycle ID",
+	 "y-axis":"Cycle Time"
+      },
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  20,
+                  33,
+                  25,
+                  45,
+                  35,
+                  40
+               ],
+               "label":"Build Box"
+            }
+         ],
+         "title":"Building the Box",
+         "labels":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Cycle ID",
+	 "y-axis":"Build Box Time"
+      },
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  15,
+                  22,
+                  15,
+                  30,
+                  15,
+                  18
+               ],
+               "label":"Scanning"
+            }
+         ],
+         "title":"Scanning the Box",
+         "labels":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Cycle ID",
+	 "y-axis":"Scanning Time"
+      },
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  35,
+                  75,
+                  50
+               ],
+               "label":"Seconds"
+            }
+         ],
+         "title":"Lower and Top Quartile; Avg. of Multiple Complete Cycles",
+         "labels":[
+            "Lower Quartile",
+            "Top Quartile",
+            "Total Avg."
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Metrics",
+	 "y-axis":"Time (Seconds)"
+      },
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  20,
+                  45,
+                  30
+               ],
+               "label":"Seconds"
+            }
+         ],
+         "title":"Lower and Top Quartile; Avg. of Building Box Activity",
+         "labels":[
+            "Lower Quartile",
+            "Top Quartile",
+            "Total Avg."
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Metrics",
+         "y-axis":"Time (Seconds)"
+      },
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  15,
+                  30,
+                  20
+               ],
+               "label":"Seconds"
+            }
+         ],
+         "title":"Lower and Top Quartile; Avg. of Scanning Activity",
+         "labels":[
+            "Lower Quartile",
+            "Top Quartile",
+            "Total Avg."
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Metrics",
+         "y-axis":"Time (Seconds)"
+
+      }
+   ],
+   "activity_table":{
+      "match":{
+         "0":"Building Box",
+         "1":"Building Box",
+         "2":"Scanning Label",
+         "3":"Scanning Label",
+         "4":"Cycle Completed"
+      },
+      "totaltime":{
+         "0":"0.023872",
+         "1":"0.280865",
+         "2":"0.915925",
+         "3":"0.353392",
+         "4":"0.464311"
+      },
+      "starting":{
+         "0":"2020-10-04 17:31:10.218428",
+         "1":"2020-10-04 17:31:10.242300",
+         "2":"2020-10-04 17:31:10.523165",
+         "3":"2020-10-04 17:31:11.439090",
+         "4":"2020-10-04 17:31:11.792482"
+      },
+      "ending":{
+         "0":"2020-10-04 17:31:10.242300",
+         "1":"2020-10-04 17:31:10.523165",
+         "2":"2020-10-04 17:31:11.439090",
+         "3":"2020-10-04 17:31:11.792482",
+         "4":"2020-10-04 17:31:12.256793"
+      }
+   }
+}

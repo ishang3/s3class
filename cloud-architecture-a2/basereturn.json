@@ -1,0 +1,10 @@
+{
+   "cameraId":"3",
+   "videourl":{
+      "bucket":"completedvideo",
+      "key":"output.mp4"
+   },
+   "chartList":[
+      
+   ]
+}

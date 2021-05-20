@@ -1,0 +1,69 @@
+{
+   "videobucket":"sensable-indexnine2",
+   "videokey":"3/2/ada0c85893488a9da27103a1445462c410.mp4",
+   "activity":[
+      {
+         "activity_name":"Moving from Region 0 to Region 1",
+         "regex":"o:R0R1"
+      },
+      {
+         "activity_name":"Moving From Region 1 To Region 0",
+         "regex":"O:R1R0"
+      }
+   ],
+   "reports":[
+      {
+         "type":"B:activity-report",
+         "command":"SELECT trackid,match,COUNT(*) from metadata group by trackid,match order by trackid;"
+      },
+      {
+         "type":"B:time-per-id",
+         "command":"SELECT trackid,SUM(totaltime::decimal),COUNT(*) from metadata group by trackid;"
+      },
+      {
+         "type":"B:total-time",
+         "command":"SELECT Trackid,SUM(totaltime::decimal) from metadata Group By Trackid;"
+      },
+      {
+         "type":"B:Number of picks per tracked id",
+         "command":"SELECT Trackid,COUNT(trackid) from metadata group by trackid;"
+      }
+   ],
+   "annotations":[
+      {
+         "type":"rect",
+         "label":"R0",
+         "image_width":733,
+         "image_height":412.3125,
+         "analysis":[
+            {
+               "type":"empty",
+               "title":"Empty",
+               "calculation":null
+            }
+         ],
+         "xmin":39.40625,
+         "ymin":76.34834015461571,
+         "xmax":235.48468137254903,
+         "ymax":334.8061473163793
+      },
+      {
+         "type":"rect",
+         "label":"R1",
+         "image_width":733,
+         "image_height":412.3125,
+         "analysis":[
+            {
+               "type":"empty",
+               "title":"Empty",
+               "calculation":null
+            }
+         ],
+         "xmin":451.40625,
+         "ymin":93.2229469834773,
+         "xmax":617.092524509804,
+         "ymax":331.6119318877462
+      }
+   ],
+   "cameraId":2
+}

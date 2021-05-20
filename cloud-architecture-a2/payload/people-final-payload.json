@@ -1,0 +1,85 @@
+{
+   "videobucket":"video-checks",
+   "videokey":"people.mp4",
+   "activity":[
+      {
+        "activity_name":"Move from R0 to R1",
+        "regex":"O:p:R0R2"
+      },
+      {
+        "activity_name":"Move from R0 to R1",
+        "regex":"O:p:R0R1"
+      }
+   ],
+   "reports":[
+      {
+         "type":"B:activity report",
+         "command":"SELECT Trackid,COUNT(*) From Metadata Group By Trackid Order By Trackid;"
+      },
+      {
+         "type":"B:time-Per-Id",
+         "command":"SELECT Trackid,SUM(Totaltime::Decimal),COUNT(*) From Metadata Group By Trackid Order By Trackid;"
+      }
+   ],
+   "annotations":[
+      {
+         "type":"rect",
+         "label":"R0",
+         "image_width":576,
+         "image_height":320,
+         "analysis":[
+            {
+               "type":"people",
+               "title":"people",
+               "calculation":null
+            },
+ 	    {
+               "type":"people",
+               "title":"people",
+               "calculation":null
+            }
+         ],
+         "xmin":239,
+         "xmax":1,
+         "ymin":449,
+         "ymax":133,
+      },
+        {
+         "type":"rect",
+         "label":"R1",
+         "image_width":576,
+         "image_height":320,
+         "analysis":[
+            {
+               "type":"Person",
+               "title":"Person",
+               "calculation":null
+            }
+         ],
+         "xmin":72,
+         "xmax":65,
+         "ymin":216,
+         "ymax":129,
+      },
+        {
+         "type":"rect",
+         "label":"R2",
+         "image_width":576,
+         "image_height":320,
+         "analysis":[
+            {
+               "type":"person",
+               "title":"person",
+               "calculation":null
+            }
+         ],
+         "xmin":197,
+         "xmax":135,
+         "ymin":422,
+         "ymax":305,
+      }
+   ],
+   "cameraId":10,
+   "cameraName":null,
+   "companyName":"Sensable"
+}

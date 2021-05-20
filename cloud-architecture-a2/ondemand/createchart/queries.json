@@ -1,0 +1,28 @@
+{
+   "messageId":"",
+   "videobucket":"",
+   "videokey":"",
+   "activity":[
+      {
+         "activity_name":"",
+         "regex":""
+      }
+   ],
+   "reports":[
+      {
+         "type":"B:1:Activity Report",
+         "command":"SELECT Match,COUNT(*) From Ulva3_148 Group By Match;"
+      },
+      {
+         "type":"B:2:Time-Per-Activity",
+         "command":"SELECT Match,SUM(Totaltime::Decimal),COUNT(*) From Cloudtesting_107 Group By Match;"
+      }
+   ],
+   "annotations":[
+   ],
+   "cameraId": "",
+   "cameraReportLogId": "",
+   "cameraName": "",
+   "companyName":"",
+   "iotCoreTopic":""
+}

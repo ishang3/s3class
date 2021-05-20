@@ -1,0 +1,82 @@
+{
+   "cameraId":"6",
+   "videourl":{
+      "bucket":"completedvideo",
+      "key":"6output.mp4"
+   },
+   "chartList":[
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  1,
+                  1,
+                  1
+               ],
+               "label":"Time (seconds)"
+            }
+         ],
+         "title":"Delivered Boxes",
+         "labels":[
+            6,
+            12,
+            18
+         ],
+         "options":null,
+         "colors":null,
+         "x-axis":"Time (Seconds)",
+         "y-axis":"Number of Boxes Moved"
+      },
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  1,
+                  1,
+                  1
+               ],
+               "label":"Time (seconds)"
+            }
+         ],
+         "title":"Delivered Boxes",
+         "labels":[
+            6,
+            12,
+            18
+         ],
+         "options":null,
+         "colors":null,
+         "x-axis":"Time (Seconds)",
+         "y-axis":"Number of Boxes Moved"
+      }
+   ],
+   "activity_table":{
+      "match":{
+         "1":"Box Moved Across Line",
+         "2":"Box Moved Across Line",
+         "3":"Box Moved Across Line"
+      },
+      "totaltime":{
+         "1":"5.8",
+         "2":"6.4",
+         "3":"5.5"
+      },
+      "objectid":{
+         "1":1,
+         "2":2,
+         "3":3
+      },
+      "starting":{
+         "1":"2020-10-22 02:35:20.626686",
+         "2":"2020-10-22 02:35:26.627966",
+         "3":"2020-10-22 02:35:31.997903"
+      },
+      "ending":{
+         "1":"2020-10-22 02:35:26.989556",
+         "2":"2020-10-22 02:45:31.119137",
+         "3":"2020-10-22 02:49:29.668968"
+      }
+   }
+}

@@ -1,0 +1,130 @@
+{
+   "cameraId":"3",
+   "videourl":{
+      "bucket":"completedvideo",
+      "key":"3output.mp4"
+   },
+   "chartList":[
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  2.2870047,
+                  3.336287,
+                  2.8757929,
+                  3.1491171,
+                  2.4297347,
+                  3.2671065
+               ],
+               "label":"Time (seconds)"
+            }
+         ],
+         "title":"Time spent per Track Id",
+         "labels":[
+            27,
+            0,
+            15,
+            5,
+            14,
+            7
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Object ID",
+	 "y-axis":"Time (seconds)"
+      },
+      {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  4,
+                  2
+               ],
+               "label":"Count"
+            }
+         ],
+         "title":"Count per Forklift Route",
+         "labels":[
+            "Pallet Crossdock",
+            "Pickup Pallet"
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Activity",
+	 "y-axis":"Count"
+      },
+	 {
+         "chartType":"bar",
+         "dataSet":[
+            {
+               "data":[
+                  7.0,
+                  3.0,
+                  6.0,
+                  2.0,
+                  7.0,
+                  3.0
+               ],
+               "label":"Speed (Feet per Second) "
+            }
+         ],
+         "title":"Forklift Speed",
+         "labels":[
+            27,
+            0,
+            15,
+            5,
+            14,
+            7
+         ],
+         "options":null,
+         "colors":null,
+	 "x-axis":"Object ID",
+	 "y-axis":"Speed (Feet per Second)"
+      }
+   ],
+   "activity_table":{
+      "match":{
+         "0":"Pallet Crossdock",
+         "1":"Pickup Pallet",
+         "2":"Pallet Crossdock",
+         "3":"Pickup Pallet",
+         "4":"Pallet Crossdock",
+         "5":"Pickup Pallet"
+      },
+      "totaltime":{
+         "0":"33.36287",
+         "1":"31.491171",
+         "2":"32.671065",
+         "3":"24.297347",
+         "4":"28.757929",
+         "5":"22.870047"
+      },
+      "objectid":{
+         "0":0,
+         "1":5,
+         "2":7,
+         "3":14,
+         "4":15,
+         "5":27
+      },
+      "starting":{
+         "0":"2020-10-06 02:35:20.626686",
+         "1":"2020-10-06 02:44:39.627966",
+         "2":"2020-10-06 02:48:56.997903",
+         "3":"2020-10-06 02:58:55.531169",
+         "4":"2020-10-06 03:01:43.412183",
+         "5":"2020-10-06 03:18:32.761998"
+      },
+      "ending":{
+         "0":"2020-10-06 02:35:53.989556",
+         "1":"2020-10-06 02:45:11.119137",
+         "2":"2020-10-06 02:49:29.668968",
+         "3":"2020-10-06 02:59:19.828516",
+         "4":"2020-10-06 03:02:12.170112",
+         "5":"2020-10-06 03:18:55.632045"
+      }
+   }
+}

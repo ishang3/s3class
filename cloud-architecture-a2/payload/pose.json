@@ -1,0 +1,76 @@
+{
+   "videobucket":"video-checks",
+   "videokey":"people.mp4",
+   "activity":[
+      {
+         "activity_name":"Building Box",
+         "regex":"o:R1R2"
+      },
+      {
+         "activity_name":"Scanning Box",
+         "regex":"o:R1R3"
+      },
+      {
+         "activity_name":"Cycle Completed",
+         "regex":"o:R1R4"
+      }
+   ],
+   "reports":[
+
+      {
+         "type":"B:activity-report",
+         "command":"SELECT trackid,match,COUNT(*) from metadata group by trackid,match order by trackid;"
+      }
+      
+   ],
+   "annotations":[
+      {
+         "type":"rect",
+         "label":"R1",
+         "S2":-1,
+         "S1":-1,
+         "xmin":253,
+         "ymin":132,
+         "xmax":454,
+         "ymax":187,
+         "image_width":576,
+         "image_height":320
+      },
+      {
+         "type":"rect",
+         "label":"R2",
+         "S2":-1,
+         "S1":-1,
+         "xmin":255,
+         "ymin":43,
+         "xmax":311,
+         "ymax":113,
+         "image_width":576,
+         "image_height":320
+      },
+      {
+         "type":"rect",
+         "label":"R3",
+         "S2":-1,
+         "S1":-1,
+         "xmin":369,
+         "ymin":93,
+         "xmax":404,
+         "ymax":126,
+         "image_width":576,
+         "image_height":320
+      },
+      {
+         "type":"rect",
+         "label":"R4",
+         "S2":-1,
+         "S1":-1,
+         "xmin":482,
+         "ymin":113,
+         "xmax":567,
+         "ymax":214,
+         "image_width":576,
+	"image_height":320
+      }
+   ]
+}

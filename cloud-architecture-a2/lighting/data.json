@@ -1,0 +1,18 @@
+{
+   "messageId":"light_info",
+   "params":{
+      "lights":[{
+         "id":"1",
+         "params":[
+            750,
+            650,
+            150,
+            150
+         ]
+      }],
+      "edgeUniqueId":"a89f966e-1240-11eb-bf7d-983b8fc60651",
+      "sourceType":"camera/clip",
+      "cameraId":"cam_123",
+      "uniqueIdForClip":"123"
+   }
+}

@@ -1,0 +1,34 @@
+{
+   "videobucket":"video-checks",
+   "cameraId":10,
+   "videokey":"people.mp4",
+   "activity":[
+      {
+         "activity_name":"walking from R0 to R1 or R0 to R2",
+         "regex":"o:S2S1"
+      }
+   ],
+   "reports":[
+      
+   ],
+   "annotations":[
+      {
+         "type":"line",
+         "label":"L1",
+         "S2":[
+            138,
+            162
+         ],
+         "S1":[
+            135,
+            135
+         ],
+         "xmin":56,
+         "ymin":149,
+         "xmax":281,
+         "ymax":155,
+         "image_width":576,
+         "image_height":320
+      }
+   ]
+}

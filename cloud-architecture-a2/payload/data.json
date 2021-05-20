@@ -1,0 +1,41 @@
+{
+   "videobucket":"video-checks",
+   "videokey":"people.mp4",
+   "activity":{
+      "activity_name":"walking from R0 to R1 or R0 to R2",
+     
+ "regex":"(R0)+((R1)+|(R2)+)$"
+   },
+   "annotations":[
+      {
+         "type":"rect",
+         "label":"R0",
+         "xmin": 239,
+         "ymin": 1,
+         "xmax": 449,
+         "ymax": 133,
+         "image_width": 576,
+         "image_height": 320
+      },
+      {
+         "type":"rect",
+         "label":"R1",
+         "xmin": 72,
+         "ymin": 65,
+         "xmax": 216,
+         "ymax": 129,
+         "image_width": 576,
+         "image_height": 320
+      },
+      {
+         "type":"rect",
+         "label":"R2",
+         "xmin": 197,
+         "ymin": 135,
+         "xmax": 422,
+         "ymax": 305,
+         "image_width": 576,
+         "image_height": 320
+      }
+   ]
+}

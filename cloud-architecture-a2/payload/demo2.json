@@ -1,0 +1,54 @@
+{
+  "videobucket": "video-checks",
+  "videokey": "people.mp4",
+  "objectactivity": {
+    "activity_name": "",
+    "regex": ""
+  },
+  "regionactivity": [
+   { 
+    "activity_name": "Region 1's State",
+    "regex": "(R1)+(E)"
+  },
+  { 
+    "activity_name": "Region 2's State",
+    "regex": "(R2)+(E)"
+  }
+  ],
+  "reports": [
+    {
+      "type": "activity-report",
+      "command": "SELECT trackid,match,COUNT(*) from metadata group by trackid,match order by trackid;"
+    },
+    {
+      "type": "time-per-id",
+      "command": "SELECT trackid,SUM(totaltime::decimal),COUNT(*) from metadata group by trackid;"
+    },
+    {
+      "type": "total-time",
+      "command": "SELECT SUM(totaltime::decimal) from metadata;"
+    }
+  ],
+  "annotations": [
+    {
+      "type": "region",
+      "label": "R1",
+      "xmin": 142,
+      "ymin": 102,
+      "xmax": 316,
+      "ymax": 217,
+      "image_width": 576,
+      "image_height": 320
+    },
+    {
+      "type": "region",
+      "label": "R2",
+      "xmin": 346,
+      "ymin": 11,
+      "xmax": 508,
+      "ymax": 101,
+      "image_width": 576,
+      "image_height": 320
+    }
+  ]
+}
