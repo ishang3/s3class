@@ -98,7 +98,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
 llvmlite==0.33.0
-lxml==4.5.1
+lxml==4.6.5
 m3u8==0.7.1
 Markdown==3.2.2
 MarkupSafe==1.1.1
