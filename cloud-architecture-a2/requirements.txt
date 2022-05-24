@@ -180,7 +180,7 @@ SQLAlchemy-Paginator==0.2
 tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
 tensorflow==1.15.0
-tensorflow-cpu==2.3.0
+tensorflow-cpu==2.6.4
 tensorflow-estimator==2.3.0
 termcolor==1.1.0
 terminado==0.8.3
